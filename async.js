@@ -36,3 +36,11 @@ let timeoutId = setTimeout(greeting, 5000, "Suman", "Ghosh")
 // setTimeout(greeting("Suman"), 5000)
 // the js will immediately execute the function without waiting, bcoz you're
 // passing a function call and not a function reference as the first param
+
+
+// Interview question:
+console.log("start");
+setTimeout(() => {
+    console.log("set timeout func");
+}, 0)
+console.log("end");
